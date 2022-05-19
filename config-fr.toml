@@ -1,5 +1,5 @@
-# http://jardins-peters.fr/
-baseURL       = "http://jardins-peters.github.io"
+# https://jardins-peters.fr/
+baseURL       = "https://jardins-peters.github.io"
 languageCode  = "fr-BE"
 title         = "Jardins Peters"
 theme         = "roxo"
