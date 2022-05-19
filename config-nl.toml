@@ -1,0 +1,95 @@
+# https://www.jardins-peters.be/
+baseURL       = "http://jardins-peters.github.io"
+languageCode  = "nl-BE"
+title         = "Jardins Peters"
+theme         = "roxo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "Expertise"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Portfolio"
+    url     = "portfolio"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Blog"
+    url     = "blog"
+    weight  = 4
+  [[menu.nav]]
+    name    = "Contacteer ons"
+    url     = "contact"
+    weight  = 5
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Jardins Peters"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = ""
+
+  # Contact Form
+  [params.contactForm]
+    placeholder_first_name        = "Voornaam"
+    placeholder_last_name         = "Familienaam"
+    placeholder_email             = "Email"
+    placeholder_about_the_project = "Ik zou graag met je spreken over"
+    send_message                  = "Verstuur"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Contacteer ons"
+    url     = "contact"
+  
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "Voor iedere tuin een verhaal"
+    primary_button        = "Bekijk onze projecten"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Contacteer ons"
+    secondary_button_url  = "contact"
+
+  [params.portfolio]
+    enable    = true
+    title     = "Onze recente realisaties"
+    subtitle  = "We streven ernaar om je tuin aantrekkelijk en rustgevend te maken."
+
+  [params.call_to_action]
+    enable              = false
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contactgegevens"
+      address = "Kasteelwijk 18, 8660 Adinkerke"
+      phone   = "– +32 496 965 409"
+      email   = "info@jardins-peters.be"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = ""
+
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          url  = "https://www.facebook.com/BVBA-Jardins-Peters-1253712044710385/"
+      # Footer Service
+      [params.footer.service]
+        title       = ""
+        description = ""
