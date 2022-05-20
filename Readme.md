@@ -15,20 +15,20 @@ Download the [roxo theme](https://github.com/StaticMania/roxo-hugo) from GitHub 
 Live Mode:
 
 ```sh
-hugo server --buildDrafts --config /config-nl.yaml
+hugo server --buildDrafts --config config-nl.toml --themesDir ~/Projects/ --theme jardins-peters-roxo
 ```
 
 Disable LiveReload:
 
 ```sh
-hugo server --disableLiveReload --config config-nl.toml
+hugo server --disableLiveReload --config config-nl.toml --themesDir ~/Projects/ --theme jardins-peters-roxo
 ```
 
 Publish:
 
 ```sh
 # Nederlands: 
-hugo --cleanDestinationDir --config config-nl.toml
+hugo --cleanDestinationDir --config config-nl.toml --themesDir ~/Projects/ --theme jardins-peters-roxo
 # Frans: 
-hugo --cleanDestinationDir --config /config-fr.toml
+hugo --cleanDestinationDir --config /config-fr.toml --themesDir ~/Projects/ --theme jardins-peters-roxo
 ```

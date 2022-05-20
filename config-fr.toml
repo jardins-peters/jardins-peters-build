@@ -68,11 +68,17 @@ summarylength = 25
     enable    = true
     title     = "Onze recente realisaties"
     subtitle  = "We streven ernaar om je tuin aantrekkelijk en rustgevend te maken."
+    read_more = "bekijk project"
+    more_works   = "MEER PROJECTEN"
+    scroll_down  = "Scroll naar beneden"
 
   [params.call_to_action]
     enable              = false
 
-  [params.footer]
+  [params.footer]    
+    [params.footer.scroll]
+      up = "Scroll naar boven"
+
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contactgegevens"
