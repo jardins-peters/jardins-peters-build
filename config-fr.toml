@@ -40,6 +40,13 @@ summarylength = 25
   # We're using formspree.io for form handling, paste your formspree url below
   formspreeFormUrl  = ""
 
+  # About page
+  [params.expertise]
+    heading = "Wij zijn Jardins Peters, een bedrijf dat tuiniert met hart en ziel."
+    description = "Wij zijn gespecialiseerd in het creëren van een fantastische tuin-ervaring. En dat doen we door onze klanten in elke fase van het proces met ons mee te nemen."
+    expertise_title = "Expertise"
+    expertise_sectors = ["Afsluitingen", "Terassen", "Vijvers", "Tuinverlichting", "Tuinhuizen", "Bomen", "Putboringen", "Automatische beregening"]
+
   # Contact Form
   [params.contactForm]
     placeholder_first_name        = "Voornaam"
